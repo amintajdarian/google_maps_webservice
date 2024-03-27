@@ -1,0 +1,18 @@
+name: google_maps_webservice
+description: Google Maps Web Services [API](https://developers.google.com/maps/web-services)
+version: 0.0.20-nullsafety.1
+homepage: https://github.com/lejard-h/google_maps_webservice
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+dependencies:
+  http: any
+  meta: any
+  json_annotation: any
+
+dev_dependencies:
+  test: any
+  pedantic: any
+  build_runner: any
+  json_serializable: any
